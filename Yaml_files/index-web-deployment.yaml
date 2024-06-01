@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: index-web-container01
-        image: docker.io/darkmatter85/sample-app
+        image: darkmatter85/sample-app
         resources:
           requests:
             memory: "64Mi"

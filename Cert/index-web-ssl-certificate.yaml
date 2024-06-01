@@ -1,0 +1,10 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: miniapi-prod
+spec:
+  secretName: miniapi-production-certificate
+  issuerRef:
+    name: letsencrypt-prod
+  dnsNames:
+  - 10.96.0.1.nip.io

@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: index-web-container01
-        image: darkmatter85/sample-app
+        image: nginx:latest
         resources:
           requests:
             memory: "64Mi"
